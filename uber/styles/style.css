@@ -4,13 +4,13 @@
 
 @layer utilities {
   .bg-uber {
-    background-image: url('/src/assets/bguber.png');
+    background-image: url('/uber/src/assets/bguber.png');
     background-size: cover;
     background-position: center;
   }
 
   .bg-city {
-    background-image: url('/src/assets/bg-city.png');
+    background-image: url('/uber/src/assets/bg-city.png');
     background-size: cover;
     background-position: center;
   }
