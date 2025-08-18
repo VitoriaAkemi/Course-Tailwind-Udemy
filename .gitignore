@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /login-page/node_modules
+/uber/node_modules
 /.pnp
 .pnp.js
 
