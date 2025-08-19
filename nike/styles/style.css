@@ -1,0 +1,9 @@
+@import "tailwindcss";
+/* @import "tailwindcss/preflight"; */
+@import "tailwindcss/utilities";
+
+@layer utilities {
+    * {
+        font-family: Poppins;
+    }
+}

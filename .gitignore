@@ -1,9 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/login-page/node_modules
-/uber/node_modules
+*/node_modules
 /.pnp
 .pnp.js
 
