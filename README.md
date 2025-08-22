@@ -5,7 +5,8 @@ Repository intended for classes and course exercises Tailwind CSS do zero ao ava
 1. Clone the repository with <code>git clone https://github.com/VitoriaAkemi/Course-Tailwind-Udemy</code> <br/>
 2. Download the project premises with <code>npm i</code> <br/>
 3. Choose from the Uber, Nike, Login and Enter the Folder of the Chosen Folder projects <br/>
-4. At the terminal and run the command <code>npm run dev</code> <br/>
+4. Find src/Index.html, right click and select Open with Live Server <br/>
+5. At the terminal and run the command <code>npm run dev</code> <br/>
 
 - In the VSCode, the Live Server and Tailwind CSS IntelliSense extension is required to execute the code <br/>
 https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer <br/>
