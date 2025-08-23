@@ -48,6 +48,63 @@
                 <i class="fa fa-phone" style="font-size:16px"></i>
             </button>
         </aside>
+
+        <main class="w-full flex flex-col pb-4">
+
+            <div id="menu" class="hidden absolute z-50 shadow-xl w-full flex-col items-center px-3 py- bg-white">
+                <button id="btn-close" onclick="closeMenu()" class="text-3xl text-bold mt-4">X</button>
+                <nav class="flex flex-col mt-8 gap-5 w-full">
+                    <a 
+                        href="#"
+                        class="text-gray-500 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300 w-full text-center"
+                        >
+                        Aluguel
+                    </a>
+                    <a 
+                        href="#"
+                        class="text-gray-500 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300 w-full text-center"
+                        >
+                        Compra
+                    </a>
+                    <a 
+                        href="#"
+                        class="text-gray-500 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300 w-full text-center"
+                        >
+                        Serviços
+                    </a>
+                    <a 
+                        href="#"
+                        class="text-gray-500 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300 w-full text-center"
+                        >
+                        Contatos
+                    </a>
+                </nav>
+            </div>
+
+            <header class="w-full bg-white py-5 px-3 flex justify-between items-center flex-row">
+                <div class="flex items-center bg-slate-100 px-3 py-2 rounded-lg w-full max-w-xs lg:max-w-[50%] lg:mr-8">
+                <i class="fa fa-search text-gray-500" style="font-size: 16px"></i>
+                <input 
+                    type="text"
+                    class="w-full bg-slate-100 px-2 outline-none"
+                    >
+                </div>
+                <div class="flex items-center gap-3">
+                    <a href="#" class="hidden md:flex w-8 h-8 p-5 bg-slate-100 items-center justify-center rounded-full">
+                        <i class="fa fa-heart tex-gray-500" style="font-size:16px"></i>
+                    </a>
+                    <button class="px-4 py-2 rounded font-medium gap-2 bg-rose-500 hover:bg-rose-600 duration-300 text-white flex items-center justify-center">
+                        <span class="hidden md:flex">Sing In</span>
+                        <i class="fa fa-user md:ml-1"></i>
+                    </button>
+                    <button id="btn-open" onclick="openMenu()" class="sm:hidden flex items-center justify-center px-4 py-2">
+                        <i class="fa fa-bars" style="font-size:24px"></i>
+                    </button>
+                </div>
+            </header>
+                
+        </main>
     </div>
+    <script src="../scr/script.js"></script>
 </body>
 </html>
